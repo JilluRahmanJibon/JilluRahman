@@ -306,8 +306,9 @@
 
 .skills {
     text-align: right;
-    padding: 2px 0;
+    padding: 1px 0;
     color: white;
+    margin: 15px 0;
 }
 
 .html {
@@ -331,3 +332,125 @@
 }
 
 /* skill-area end */
+
+/* project-inner start */
+#project-inner {
+    height: 350px;
+    width: 100%;
+}
+
+.inner-img {
+    background: url(images/my-bg2.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 300px;
+    width: 100%;
+    position: relative;
+    top: -175px;
+
+}
+
+.inner-img::before {
+    content: '';
+    background: #171f3e;
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 0;
+    opacity: 0.9;
+}
+
+
+.inner-content {
+    position: absolute;
+    width: 100%;
+}
+
+.inner-text {
+    /* text-align: center; */
+    padding-top: 55px;
+    padding-left: 74px;
+}
+
+.inner-text span {
+    color: #ff384b;
+}
+
+.inner-text h1 {
+    color: white;
+    font-size: 40px;
+    padding-top: 20px;
+    font-weight: bold;
+}
+
+#give-email {
+    background: none;
+    border: #f7f8ff solid;
+    color: rgb(154, 152, 152);
+    transition: .3s;
+}
+
+#give-email:hover {
+    background: #ff384b;
+    border: #ff384b solid;
+    color: white;
+}
+
+.inner-btn {
+    margin: auto;
+    text-align: center;
+    padding: 115px 0;
+}
+
+
+/* project-inner end */
+
+/* experience area start */
+#background-inner {
+    background: #f6f5ff;
+    padding-bottom: 40px;
+}
+
+.experience-content {
+    text-align: center;
+    position: relative;
+    top: -60px;
+}
+
+.experience-content h3 {
+    color: #ff384b;
+    font-size: 32px;
+}
+
+.experience-content h1 {
+    font-size: 66px;
+    padding: 20px 0px;
+    font-weight: bold;
+}
+
+.experience-box {
+    padding: 30px 40px;
+    height: 100%;
+    background: white;
+    margin: 0 20px;
+
+
+}
+
+.pt-40 {
+    padding-top: 40px;
+}
+
+.experience-box h1 {
+    padding-bottom: 30px;
+    font-size: 30px;
+    padding-top: 9px;
+}
+
+.experience-box p {
+    line-height: 30px;
+    color: #857797;
+}
+
+/* experience area end */

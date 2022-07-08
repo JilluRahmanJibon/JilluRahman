@@ -438,6 +438,16 @@
 
 }
 
+#icons i {
+    font-size: 24px;
+    color: #ff3d4f;
+    height: 80px;
+    width: 80px;
+    text-align: center;
+    line-height: 80px;
+    background: #fff2f3;
+}
+
 .pt-40 {
     padding-top: 40px;
 }
@@ -454,3 +464,119 @@
 }
 
 /* experience area end */
+/* education-start */
+#education-important {
+    padding-top: 90px;
+    padding-bottom: 5000px;
+
+}
+
+.width-45 {
+    width: 45%;
+
+
+}
+
+.width-55 {
+    width: 55%;
+
+}
+
+.education-img {
+    position: relative;
+}
+
+.education-img .client-img {
+    width: 80%;
+    padding-left: 40px;
+}
+
+.education-img .img-jibon {
+    width: 90%;
+    right: 0;
+    position: absolute;
+    top: 330px;
+}
+
+.education-img .img-jibon img {
+    width: 100%;
+}
+
+.img-icon i {
+    position: relative;
+    background: navy;
+    color: white;
+    height: 100px;
+    width: 100px;
+    text-align: center;
+    line-height: 98px;
+    font-size: 40px;
+    left: 65px;
+    top: 15px;
+}
+
+.education-header h3 {
+    color: #ff384b;
+    font-size: 30px;
+}
+
+.education-header h1 {
+    padding: 50px 0;
+    font-size: 55px;
+}
+
+.education-content {
+    position: relative;
+    padding-left: 30px;
+}
+
+.education-body {
+    position: relative;
+}
+
+.education-body::before {
+    content: "";
+    position: absolute;
+    left: -26px;
+    top: 0;
+    bottom: 0;
+    width: 3px;
+    background: #ffe6e4;
+    height: 100%;
+    margin-right: 5px;
+
+}
+
+.pb-40 {
+    padding-bottom: 40px;
+}
+
+.education-content::before {
+    position: absolute;
+    content: "";
+    box-shadow: 0px 4px 8px 0px rgba(255, 61, 79, 0.3);
+    height: 10px;
+    width: 10px;
+    left: -34px;
+    border-radius: 50%;
+    background-color: rgb(255, 61, 79);
+    border-style: solid;
+    border-width: 4px;
+    border-color: rgb(255, 255, 255);
+}
+
+.education-content span {
+    color: #ff384b;
+}
+
+.education-content h3 {
+    padding: 22px 0;
+}
+
+.education-content p {
+    color: #6e77a4;
+    line-height: 25px;
+
+}
+
+/* education-end */

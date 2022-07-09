@@ -465,11 +465,6 @@
 
 /* experience area end */
 /* education-start */
-#education-important {
-    padding-top: 90px;
-    padding-bottom: 5000px;
-
-}
 
 .width-45 {
     width: 45%;
@@ -580,3 +575,151 @@
 }
 
 /* education-end */
+/* team area start */
+.our-team {
+    margin-top: 70px;
+    background: #f6f5ff;
+    padding-top: 100px;
+    padding-bottom: 180px;
+}
+
+.team-header {
+    text-align: center;
+}
+
+.team-header h1 {
+    font-size: 50px;
+    font-weight: bold;
+    padding-top: 25px;
+    padding-bottom: 50px;
+    word-spacing: -14px;
+}
+
+.team-header h3 {
+    color: #ff384b;
+    font-size: 30px;
+}
+
+.team-members {
+    text-align: center;
+    position: relative;
+    margin: 0 15px;
+}
+
+
+.team-members .team-img img {
+    width: 100%;
+}
+
+.team-members .team-content {
+    background: white;
+    position: absolute;
+    width: 90%;
+    left: 0;
+    right: 0;
+    bottom: -80px;
+    margin: auto;
+    padding: 45px 0;
+    box-shadow: 0 0 15px #e6e4f7;
+}
+
+.team-members .team-content h1 {
+    padding-bottom: 20px;
+}
+
+.team-members .team-content span {
+    color: #ff384b;
+    font-weight: bold;
+    font-size: 18px;
+    padding: 10px 0;
+    display: inline-block;
+}
+
+.team-content .team-icons {}
+
+.team-content .team-icons i {
+    font-size: 16px;
+    margin: 0 3px;
+    color: #c1bfd8;
+    padding: 0 3px;
+    transition: .3s;
+}
+
+.team-content .team-icons i:hover {
+    color: #ff384b;
+}
+
+/* team area end */
+/* contact area start  */
+.contact-form {
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.contact-content {
+    text-align: center;
+}
+
+.contact-content span {
+    font-size: 30px;
+    font-weight: bold;
+    color: #ff384b;
+}
+
+.contact-content h1 {
+    font-weight: bold;
+    font-size: 60px;
+    padding-top: 20px;
+    padding-bottom: 40px;
+    word-spacing: -10px;
+}
+
+form label {
+    color: rgb(182, 176, 176);
+}
+
+form input {
+    width: 90%;
+    height: 100%;
+    padding: 15px 20px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    outline: none;
+    border: 2px solid rgb(182, 176, 176);
+}
+
+form textarea {
+    width: 90%;
+    margin-top: 10px;
+    outline: none;
+    border: 2px solid rgb(182, 176, 176);
+    padding: 10px 20px;
+}
+
+#form-btn {
+    margin-top: 22px;
+    padding: 18px 65px;
+    color: #fff;
+    border-radius: 30px;
+    background: #ff384b;
+    border: 2px solid #ff384b;
+    font-size: 18px;
+    text-transform: uppercase;
+    font-weight: 500;
+    transition: .3s;
+
+}
+
+
+
+#form-btn:hover {
+    background: white;
+    border: 2px solid #9a9;
+    color: #9a9381;
+}
+
+#google-map {
+    text-align: center;
+}
+
+/* contact area end */

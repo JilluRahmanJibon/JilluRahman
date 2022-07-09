@@ -722,4 +722,104 @@ form textarea {
     text-align: center;
 }
 
+.footer-area {
+    background: #000a2d;
+    padding-top: 100px;
+}
+
 /* contact area end */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* footer start  */
+.footer-content {
+    padding-bottom: 100px;
+}
+
+.footer-content h1 a {
+    color: white;
+}
+
+.footer-content h1 a small {
+    font-size: 12px;
+    display: inline-block;
+    text-align: center;
+    color: cornflowerblue;
+}
+
+.footer-content h1 span {
+    color: rgb(243, 94, 40);
+    font-size: 50px;
+    font-style: italic;
+    font-weight: bold;
+}
+
+.footer-content p {
+    color: #949cba;
+    padding: 15px 20px 12px 0px;
+    padding-top: 22px;
+    padding-bottom: 30px;
+    line-height: 28px;
+}
+
+.footer-content i {
+    padding: 0 3px;
+    font-size: 18px;
+    color: #a4acc9;
+    transition: .3s;
+}
+
+.footer-content i:hover {
+    color: #ff3d4f;
+}
+
+.footer-info {}
+
+.footer-info h1 {
+    color: white;
+    padding-bottom: 10px;
+}
+
+.footer-info h2 {
+    color: #a4acc9;
+    padding-top: 25px;
+    padding-bottom: 30px;
+}
+
+.footer-info a {
+    color: white;
+    font-size: 16px;
+    transition: .3s;
+}
+
+.footer-info a:hover {
+    color: #ff3d4f;
+}
+
+.footer-info span {
+    font-size: 25px;
+}
+
+.footer-area>p {
+    text-align: center;
+    color: #656e8d;
+    padding: 50px;
+    border-top: 1px solid rgb(50, 48, 48);
+}
+
+
+/* footer end */

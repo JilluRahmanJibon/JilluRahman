@@ -906,22 +906,23 @@ form textarea {
 }
 
 
-.news-body span a {
+.news-content span a {
     color: red;
     font-size: 17px;
     margin: 20px 3px;
     display: inline-block;
+    border: none;
 }
 
 
 .news-content h1 {
     color: black;
     margin-bottom: 30px;
-    transition: .3s;
+    transition: .5s;
 }
 
 .news-content h1:hover {
-    color: red;
+    color: #f47784;
 }
 
 .news-content p {

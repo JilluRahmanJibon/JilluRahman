@@ -102,9 +102,14 @@
     height: 3px;
     width: 0;
     left: 0;
-    bottom: -15px;
+    bottom: -20px;
     transition: .3s;
 }
+
+.main-menu ul li.active::after {
+    width: 100%;
+}
+
 
 .main-menu ul li:hover::after {
     width: 100%;
@@ -465,6 +470,9 @@
 
 /* experience area end */
 /* education-start */
+.education-area {
+    height: 70rem;
+}
 
 .width-45 {
     width: 45%;
@@ -490,24 +498,26 @@
     width: 90%;
     right: 0;
     position: absolute;
-    top: 330px;
+    top: 380px;
 }
 
 .education-img .img-jibon img {
-    width: 100%;
+    width: 90%;
+    float: right;
+    height: 100%;
 }
 
 .img-icon i {
     position: relative;
-    background: navy;
+    background: #ff3d4f;
     color: white;
     height: 100px;
     width: 100px;
     text-align: center;
     line-height: 98px;
     font-size: 40px;
-    left: 65px;
-    top: 15px;
+    left: 81px;
+    top: 150px;
 }
 
 .education-header h3 {
@@ -823,3 +833,106 @@ form textarea {
 
 
 /* footer end */
+
+
+
+/* project-area start  */
+.project-area {
+    background-color: #f6f5ff;
+    padding: 120px 0;
+    text-align: center;
+}
+
+.project-content {}
+
+.project-content i {
+    background: white;
+    height: 135px;
+    width: 135px;
+    border-radius: 50%;
+    line-height: 140px;
+    font-size: 32px;
+    color: red;
+    box-shadow: 0 0 10px rgb(222, 205, 205);
+}
+
+.project-content h1 {
+    padding: 20px 0;
+    font-size: 50px;
+    color: black;
+    font-weight: 400;
+}
+
+.project-content p {
+    font-weight: bold;
+    color: #959cb4;
+}
+
+/* project-area end */
+/* slider-area-start  */
+
+
+/* slider-area-end  */
+
+/* news-area start  */
+.news-area {
+    background: #f6f5ff;
+    padding-top: 120px;
+    padding-bottom: 100px;
+    margin-top: 200px;
+}
+
+.news-header {
+    text-align: center;
+}
+
+.news-header>h3 {
+    color: red;
+    padding-bottom: 35px;
+    font-size: 35px;
+}
+
+.news-header>h1 {
+    padding-bottom: 50px;
+    font-size: 65px;
+}
+
+.news-body {
+    margin: 0 16px;
+}
+
+.news-img img {
+    width: 100%;
+}
+
+
+.news-body span a {
+    color: red;
+    font-size: 17px;
+    margin: 20px 3px;
+    display: inline-block;
+}
+
+
+.news-content h1 {
+    color: black;
+    margin-bottom: 30px;
+    transition: .3s;
+}
+
+.news-content h1:hover {
+    color: red;
+}
+
+.news-content p {
+    line-height: 28px;
+    color: #6e80b8;
+    padding-bottom: 15px;
+}
+
+.news-content a {
+    border-bottom: 1px solid red;
+    color: red;
+}
+
+/* news-area end */

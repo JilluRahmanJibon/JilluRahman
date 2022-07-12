@@ -728,6 +728,11 @@ form textarea {
     color: #9a9381;
 }
 
+#google-map iframe {
+    width: 600px;
+    height: 550px;
+}
+
 #google-map {
     text-align: center;
 }
@@ -934,6 +939,16 @@ form textarea {
 .news-content a {
     border-bottom: 1px solid red;
     color: red;
+}
+
+
+
+.footer-content h1 a {
+    line-break: anywhere;
+}
+
+.footer-info a {
+    line-break: anywhere;
 }
 
 /* news-area end */

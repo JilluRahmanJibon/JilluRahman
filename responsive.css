@@ -1,0 +1,111 @@
+/* XL Device :1200px. */
+
+@media (min-width: 1200px) and (max-width: 1500px) {
+    .section-container {
+        width: 74rem;
+    }
+}
+
+/* LG Device :992px. */
+@media (min-width: 992px) and (max-width: 1200px) {
+    .section-container {
+        width: 970px;
+
+    }
+
+    #home-area {
+        height: 100%;
+        width: 100%;
+    }
+
+    #header-area .name {
+        font-size: 20px;
+    }
+
+    .service-content {
+        padding: 4px;
+        margin: 0px 10px;
+    }
+
+    .pt-70 {
+        padding-top: 20px !important;
+    }
+
+    .lg-none {
+        display: none;
+    }
+
+    .experience-box {
+        padding: 20px 20px;
+        margin: 0 10px;
+    }
+
+    .education-area {
+        height: 62rem;
+    }
+
+    .col-9 {
+        width: 66.66% !important;
+        padding-left: 11px;
+    }
+
+    .col-6 {
+        width: 42%;
+    }
+
+    .home-content h1 {
+        font-size: 45px;
+        padding-top: 32px;
+        padding-bottom: 15px;
+        line-height: 48px;
+    }
+
+    #hire-img {
+        position: relative;
+        right: -140px;
+        top: 50px;
+    }
+
+    .home-img {
+        padding-top: 0px;
+        padding-left: 0px;
+    }
+
+    .information-content h1 {
+        font-size: 40px;
+        line-height: 52px;
+        padding-top: 15px;
+    }
+
+    .information-content p {
+        font-size: 13px;
+    }
+
+    .info-border {
+        width: 100%;
+    }
+
+    .same-button {
+        padding: 17px 20px;
+    }
+
+    .skills-content h1 {
+        padding-top: 15px;
+        padding-bottom: 30px;
+        font-size: 28px;
+    }
+
+    .inner-text h1 {
+        font-size: 30px;
+    }
+
+    #google-map iframe {
+        width: 520px;
+        height: 570px;
+    }
+
+    .experience-content h1 {
+        font-size: 35px;
+        padding: 8px 0px;
+    }
+}
